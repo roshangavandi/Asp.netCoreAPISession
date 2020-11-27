@@ -32,7 +32,7 @@ namespace WebApiDemo.Models
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlServer("Name=BookStoresDB");
-                //optionsBuilder.UseSqlServer("Server=WIN-K2AI3IOOKH9;Database=BookStoresDB;Trusted_Connection=True;");
+                
             }
         }
 
